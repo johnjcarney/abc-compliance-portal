@@ -1,0 +1,14 @@
+# Ignore the virtual environment
+venv/
+.env
+
+# Ignore the build output (MkDocs creates this)
+site/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore OS junk files
+.DS_Store
+Thumbs.db

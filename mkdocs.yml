@@ -1,0 +1,67 @@
+site_name: PDPL Compliance Hub
+site_url: https://compliance.yourschool.edu
+repo_url: https://github.com/your-org/compliance-docs
+edit_uri: "" # Hides the edit button for a cleaner read-only view
+
+theme:
+  name: material
+  # logo: assets/logo.png  <-- Uncomment this when you add your logo image
+  favicon: assets/security.ico
+  features:
+    - navigation.tabs        # Top-level tabs (website style)
+    - navigation.sections    # Group sidebar items
+    - navigation.top         # Back-to-top button
+    - search.suggest         # Intelligent search
+    - search.highlight       # Highlight found words
+    - content.code.copy      # Copy button for code blocks
+    - content.tooltips       # Hover tooltips
+  palette:
+  - scheme: default
+    primary: indigo 
+    accent: blue
+    toggle:
+      icon: material/weather-night   # Icon to show when in Light Mode (Click to go Dark)
+      name: Switch to dark mode
+
+  # Palette toggle for Dark Mode
+  - scheme: slate
+    primary: indigo
+    accent: blue
+    toggle:
+      icon: material/weather-sunny   # Icon to show when in Dark Mode (Click to go Light)
+      name: Switch to light mode
+
+# Plugins for functionality
+plugins:
+  - search
+  #- git-revision-date-localized:
+  #    type: date             # Adds "Last updated: [Date]" to pages
+
+# Markdown Extensions for better formatting
+markdown_extensions:
+  - admonition               # For the !!! warning boxes
+  - pymdownx.details         # For collapsible "Show more" sections
+  - pymdownx.superfences:    # For Mermaid diagrams and fancy code blocks
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list                # Allows adding CSS classes to elements
+  - md_in_html
+  - pymdownx.emoji:          # Emoji support
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Your Navigation Structure (The Sitemap)
+nav:
+  - Home: index.md
+  - Governance:
+      - 'Internal Regulations': governance/internal-regulations.md
+      - 'Compliance Roadmap': governance/roadmap.md
+  - Policies:
+      - 'Data Protection': policies/data-protection.md
+      - 'IT Security': policies/it-security.md
+      - 'HR & Staff': policies/hr-staff.md
+  - Procedures:
+      - 'Incident Response': procedures/incident-response.md
+      - 'Access Requests': procedures/access-requests.md
