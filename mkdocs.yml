@@ -1,6 +1,6 @@
 site_name: PDPL Compliance Hub
-site_url: https://compliance.yourschool.edu
-repo_url: https://github.com/your-org/compliance-docs
+site_url: https://johnjcarney.github.io/abc-compliance-portal/
+repo_url: https://github.com/johnjcarney/abc-compliance-portal
 edit_uri: "" # Hides the edit button for a cleaner read-only view
 
 theme:
