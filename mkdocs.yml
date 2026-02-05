@@ -18,16 +18,16 @@ theme:
     - content.tooltips       # Hover tooltips
   palette:
   - scheme: default
-    primary: indigo 
-    accent: blue
+    primary: green 
+    accent: teal
     toggle:
       icon: material/weather-night   # Icon to show when in Light Mode (Click to go Dark)
       name: Switch to dark mode
 
   # Palette toggle for Dark Mode
   - scheme: slate
-    primary: indigo
-    accent: blue
+    primary: green
+    accent: teal
     toggle:
       icon: material/weather-sunny   # Icon to show when in Dark Mode (Click to go Light)
       name: Switch to light mode
