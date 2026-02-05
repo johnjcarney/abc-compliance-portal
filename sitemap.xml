@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://compliance.yourschool.edu/</loc>
+         <loc>https://johnjcarney.github.io/abc-compliance-portal/</loc>
          <lastmod>2026-02-05</lastmod>
     </url>
     <url>
-         <loc>https://compliance.yourschool.edu/governance/internal-regulations/</loc>
+         <loc>https://johnjcarney.github.io/abc-compliance-portal/governance/internal-regulations/</loc>
          <lastmod>2026-02-05</lastmod>
     </url>
     <url>
-         <loc>https://compliance.yourschool.edu/governance/roadmap/</loc>
+         <loc>https://johnjcarney.github.io/abc-compliance-portal/governance/roadmap/</loc>
          <lastmod>2026-02-05</lastmod>
     </url>
     <url>
-         <loc>https://compliance.yourschool.edu/policies/data-protection/</loc>
+         <loc>https://johnjcarney.github.io/abc-compliance-portal/policies/data-protection/</loc>
          <lastmod>2026-02-05</lastmod>
     </url>
     <url>
-         <loc>https://compliance.yourschool.edu/policies/hr-staff/</loc>
+         <loc>https://johnjcarney.github.io/abc-compliance-portal/policies/hr-staff/</loc>
          <lastmod>2026-02-05</lastmod>
     </url>
     <url>
-         <loc>https://compliance.yourschool.edu/policies/it-security/</loc>
+         <loc>https://johnjcarney.github.io/abc-compliance-portal/policies/it-security/</loc>
          <lastmod>2026-02-05</lastmod>
     </url>
     <url>
-         <loc>https://compliance.yourschool.edu/procedures/access-requests/</loc>
+         <loc>https://johnjcarney.github.io/abc-compliance-portal/procedures/access-requests/</loc>
          <lastmod>2026-02-05</lastmod>
     </url>
     <url>
-         <loc>https://compliance.yourschool.edu/procedures/incident-response/</loc>
+         <loc>https://johnjcarney.github.io/abc-compliance-portal/procedures/incident-response/</loc>
          <lastmod>2026-02-05</lastmod>
     </url>
 </urlset>
