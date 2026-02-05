@@ -9,7 +9,7 @@ theme:
   favicon: assets/security.ico
   features:
     - navigation.tabs        # Top-level tabs (website style)
-    - navigation.tabs.sticky
+    - navigation.tabs.sticky # Keep tabs in place as you scroll
     - navigation.sections    # Group sidebar items
     - navigation.top         # Back-to-top button
     - search.suggest         # Intelligent search
