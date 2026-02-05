@@ -5,7 +5,9 @@ edit_uri: "" # Hides the edit button for a cleaner read-only view
 
 theme:
   name: material
-  # logo: assets/logo.png  <-- Uncomment this when you add your logo image
+  icon:
+    logo: material/shield-check
+  # logo: assets/abc-logo.jpg  # <-- Uncomment this when you add your logo image
   favicon: assets/security.ico
   features:
     - navigation.tabs        # Top-level tabs (website style)
